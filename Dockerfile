@@ -4,4 +4,10 @@ RUN apk add --no-cache \
     udev \
     ttf-freefont \
     chromium \
-    git
+    git \
+    bash \
+	groff \
+	less \
+	python \
+	py-pip && \
+	pip install awscli
