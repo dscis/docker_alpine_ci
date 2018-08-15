@@ -10,4 +10,5 @@ RUN apk add --no-cache \
 	less \
 	python \
 	py-pip && \
-	pip install awscli
+	pip install awscli && \
+  npm install -g npm
